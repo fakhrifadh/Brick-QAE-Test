@@ -1,0 +1,153 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-19T19:34:20.598Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3643445000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "signup - signup failed with invalid input",
+        "description": "",
+        "id": "signup;signup---signup-failed-with-invalid-input;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 99615000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1364278000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigate to \"brick-signup\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"brick-signup\"",
+                  "offset": 17
+                }
+              ],
+              "location": "steps.BrickSignupSteps.userNavigates(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1082897000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter \"fakhri\",\"fadhila\",\"fakhrifadhila@live.com\",\"12345666\",\"jl bandung\",\"123456\",\"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fakhri\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"fadhila\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"fakhrifadhila@live.com\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"12345666\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"jl bandung\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"123456\"",
+                  "offset": 88
+                }
+              ],
+              "location": "steps.BrickSignupSteps.userInputRegistrationData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1411942000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click register button",
+            "match": {
+              "location": "steps.BrickSignupSteps.userClickRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76573000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user should receive a \"email already registered\" warning",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"email already registered\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.BrickSignupSteps.userRegistrationFailed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup"
+          },
+          {
+            "name": "@signup-failed"
+          }
+        ]
+      }
+    ],
+    "name": "Signup",
+    "description": "",
+    "id": "signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/signup.feature",
+    "tags": [
+      {
+        "name": "@signup",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

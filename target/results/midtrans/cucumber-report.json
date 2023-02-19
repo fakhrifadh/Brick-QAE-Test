@@ -1,0 +1,217 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-18T09:27:01.861Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4461474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Checkout - Successfully Checkout Pillow",
+        "description": "",
+        "id": "checkout;checkout---successfully-checkout-pillow",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d110.0.5481.100)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u00271333-MAPANMAC.local\u0027, ip: \u0027fe80:0:0:0:1ca6:6b3c:aa6b:cc9f%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/4n/6cw33j215gs...}, goog:chromeOptions: {debuggerAddress: localhost:64838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d5f3ef2234025c61ee051679f2435cbf\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\n\tat steps.Hooks.tearDown(Hooks.java:25)\n",
+              "duration": 5122000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 855873000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \"midtrans\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"midtrans\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.MidtransSteps.userNavigatesTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1258956000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click \"BUY NOW\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BUY NOW\"",
+                  "offset": 11
+                }
+              ],
+              "location": "steps.MidtransSteps.userClickButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1128521000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on checkout button",
+            "match": {
+              "location": "steps.MidtransSteps.userClickOnCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d110.0.5481.100)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u00271333-MAPANMAC.local\u0027, ip: \u0027fe80:0:0:0:1ca6:6b3c:aa6b:cc9f%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002713.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.100, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /var/folders/4n/6cw33j215gs...}, goog:chromeOptions: {debuggerAddress: localhost:64838}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d5f3ef2234025c61ee051679f2435cbf\n*** Element info: {Using\u003dcss selector, value\u003dframe#snap\\-midtrans,iframe#snap\\-midtrans}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:424)\n\tat org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)\n\tat utilities.SeleniumHelpers.switchToIframe(SeleniumHelpers.java:130)\n\tat steps.MidtransSteps.userChooseAsAPaymentMethod(MidtransSteps.java:40)\n\tat ✽.user choose \"Credit/debit card\" as a payment method(file:///Users/mapan/Documents/selenium-java-cucumber-master/src/test/resources/features/checkout.feature:8)\n",
+              "duration": 802086000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user choose \"Credit/debit card\" as a payment method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit/debit card\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.MidtransSteps.userChooseAsAPaymentMethod(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user input credit card number \"4811111111111114\", expiry date \"0225\" and cvv number \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4811111111111114\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"0225\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 84
+                }
+              ],
+              "location": "steps.MidtransSteps.userInputCreditCardNumberExpiryDateAndCvvNumber(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user verify pay now button is appeared",
+            "match": {
+              "location": "steps.MidtransSteps.user_verify_button_is_appeared()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user click on \"Pay now\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay now\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.MidtransSteps.user_click_on_pay_now_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user input password \"112233\" for payment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"112233\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.MidtransSteps.user_input_password_for_payment(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user click on OK button",
+            "match": {
+              "location": "steps.MidtransSteps.user_click_on_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout"
+          },
+          {
+            "name": "@checkout-success"
+          }
+        ]
+      }
+    ],
+    "name": "Checkout",
+    "description": "",
+    "id": "checkout",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/checkout.feature",
+    "tags": [
+      {
+        "name": "@checkout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
